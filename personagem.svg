@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffdd57"/><stop offset="1" stop-color="#ff6b6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <!-- cartoonish face with big hair and glasses -->
+  <g transform="translate(56,36) scale(0.8)">
+    <ellipse cx="200" cy="240" rx="110" ry="110" fill="#ffe4b5" stroke="#000" stroke-opacity="0.06" />
+    <!-- hair -->
+    <path d="M80 170 C20 60, 160 20, 260 50 C320 70,360 30,420 140 C430 180,380 200,330 190 C280 180,240 200,200 210 C160 220,120 200,80 170 Z" fill="#2b0036" opacity="0.98"/>
+    <!-- glasses -->
+    <g fill="#0b0b0b">
+      <rect x="140" y="200" width="60" height="40" rx="10" />
+      <rect x="220" y="200" width="60" height="40" rx="10" />
+      <rect x="200" y="216" width="20" height="8" fill="#2b0036"/>
+    </g>
+    <!-- mouth + mustache -->
+    <path d="M170 280 q30 25 80 0" stroke="#2b0036" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- jacket -->
+    <path d="M120 330 q60 80 160 0 v120 h-160 z" fill="url(#g1)" opacity="0.95"/>
+    <!-- small guitar icon -->
+    <g transform="translate(320,300) rotate(-20) scale(0.6)">
+      <rect x="0" y="0" width="20" height="60" rx="6" fill="#3a003f"/>
+      <ellipse cx="30" cy="10" rx="18" ry="12" fill="#ffd93d"/>
+    </g>
+  </g>
+</svg>
